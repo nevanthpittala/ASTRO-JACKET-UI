@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(
+    to right,
+    #f5f5f5 50%,
+    #c92d1f 50%
+  );
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+/* HEADER */
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#header-left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+#logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0d2a24;
+  letter-spacing: 1px;
+}
+
+#search-bar {
+  width: 350px;
+  height: 42px;
+  background: #ececec;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  gap: 1rem;
+}
+
+#search-bar i {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+#search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 1rem;
+}
+
+#header-right {
+  display: flex;
+  gap: 4rem;
+}
+
+#header-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+/* MAIN */
+
+#main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* LEFT PANEL */
+
+#left-panel {
+  width: 30%;
+  padding-top: 2rem;
+  position: relative;
+}
+
+#classification-label {
+  position: absolute;
+  left: 0.5rem;
+  top: 65%;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: left top;
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #0d2a24;
+}
+
+#taxonomy-list {
+  list-style: none;
+  margin-left: 8rem;
+}
+
+#taxonomy-list li {
+  margin-bottom: 2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tax-label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.tax-label::before {
+  content: "•";
+  color: #c92d1f;
+  font-size: 2rem;
+  position: absolute;
+  left: -1.8rem;
+  top: -0.7rem;
+}
+
+.tax-value {
+  color: #333;
+  font-size: 1rem;
+}
+
+/* CENTER INSECT */
+
+#insect-overlay {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  z-index: 5;
+}
+
+#insect-img {
+  width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.25));
+}
+
+/* RIGHT PANEL */
+
+#right-panel {
+  width: 30%;
+  padding-top: 1rem;
+  color: white;
+}
+
+#species-name {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#specs-area {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+#insect-icon-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#insect-icon-block svg {
+  width: 60px;
+}
+
+#insect-size-label {
+  font-size: 1rem;
+}
+
+#specs-divider {
+  width: 1px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meta-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.meta-row i {
+  font-size: 1.7rem;
+}
+
+.meta-key {
+  font-weight: 600;
+}
+
+#price {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f5d39a;
+  margin-bottom: 3rem;
+  margin-top: -1rem;
+}
+
+/* TOGGLES */
+
+#toggles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 42px;
+  height: 22px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-track {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  border-radius: 30px;
+}
+
+.toggle-thumb {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  top: 3px;
+  left: 3px;
+}
+
+/* BUTTON */
+
+#add-btn {
+  width: 280px;
+  height: 70px;
+  border: none;
+  border-radius: 14px;
+  background: #e9cf9f;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  #species-name {
+    font-size: 4rem;
+  }
+
+  #insect-overlay {
+    width: 350px;
+  }
+
+  #header-right {
+    gap: 2rem;
+  }
+
+  #header-right a {
+    font-size: 0.95rem;
+  }
+}
