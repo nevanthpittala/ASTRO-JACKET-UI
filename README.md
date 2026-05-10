@@ -35,10 +35,10 @@ A premium winter jacket e-commerce landing page inspired by modern fashion produ
 ### Preview
 
 #### My Work
-![ASTRO UI](astro-winter-ui/images/my-work.png)
+![ASTRO UI](ASTRO-ui/images/my-work.png)
 
 #### Original Reference
-![ASTRO Reference](astro-winter-ui/images/Original.png)
+![ASTRO Reference](ASTRO-ui/images/Original.png)
 
 ---
 
@@ -67,7 +67,7 @@ A futuristic insect classification showcase interface inspired by premium experi
 ![Insect UI](insect-showcase-ui/images/MY-WORK.png)
 
 ### ORIGINAL REFERENCE
-![REFERENCE UI](insect-showcse-ui/images/Original-image.png)
+![REFERENCE UI](insect-showcase-ui/images/Original-image.png)
 ---
 
 # Folder Structure
