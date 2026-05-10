@@ -72,6 +72,9 @@ A futuristic insect classification showcase interface inspired by premium experi
 
 # Folder Structure
 
+## Folder Structure
+
+```plaintext
 ui-projects/
 │
 ├── astro-winter-ui/
@@ -85,3 +88,4 @@ ui-projects/
 │   └── images/
 │
 └── README.md
+```
