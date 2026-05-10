@@ -69,8 +69,31 @@ A futuristic insect classification showcase interface inspired by premium experi
 ### ORIGINAL REFERENCE
 ![REFERENCE UI](insect-showcase-ui/images/Original-image.png)
 ---
+## 3. Reload Brand UI
 
-# Folder Structure
+A modern editorial-style branding and creative agency landing page built using pure HTML and CSS.
+
+### Features
+- Large editorial typography
+- Asymmetrical modern layout
+- Responsive image gallery
+- Minimal branding aesthetic
+- Flexbox-based structure
+- Relative & absolute positioning
+- Responsive spacing techniques
+
+### Tech Used
+- HTML5
+- CSS3
+- Remix Icons
+
+### Preview
+
+#### My Work
+![Reload Brand UI](Brand-page/images/MY-WORK.png)
+
+### REFERENCE
+![Reload Brand UI](Brand-page/images/Original.png)
 
 ## Folder Structure
 
@@ -78,14 +101,10 @@ A futuristic insect classification showcase interface inspired by premium experi
 ui-projects/
 │
 ├── astro-winter-ui/
-│   ├── index.html
-│   ├── style.css
-│   └── images/
 │
 ├── insect-showcase-ui/
-│   ├── index.html
-│   ├── insect-style.css
-│   └── images/
+│
+├── Brand-page-ui/
 │
 └── README.md
 ```
